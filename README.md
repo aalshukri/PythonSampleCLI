@@ -1,3 +1,2 @@
 # PythonSampleCLI
-Sample files for a command line interface app in python.
-
+Repo to be used as a base skeleton for development of command line interface applications.
