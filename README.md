@@ -7,8 +7,6 @@ Adapted from https://github.com/kennethreitz/samplemod
 
 ## Todo
 
-* Add debug to file param
-
 * implement inheritance class and testing
 
 * implement virtual environment
