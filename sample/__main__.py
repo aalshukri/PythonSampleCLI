@@ -7,6 +7,9 @@ from funcmodule import my_function
 
 import core
 
+from ParentClass import Parent
+from ChildClass import Child
+from AnotherChildClass import AnotherChild
 
 def main():	
 	init() 
@@ -24,6 +27,13 @@ def main():
 	logging.debug(core.get_hmm())
 	core.hmm()
 	
+	# test inheritance
+	childInstance = Child('Tom')
+	childInstance.main()
+
+	otherInstance = AnotherChild('Kip')
+	otherInstance.main()
+
 def init():
 	""" init """
 	
