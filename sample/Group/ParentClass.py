@@ -1,4 +1,5 @@
 import logging
+from Funcs.funcmodule import my_function
 class Parent():
 	def __init__(self,name):
 		""" Constructor """
@@ -8,6 +9,7 @@ class Parent():
 		
 	def firstAction(self):
 		self.actionCount+=1
+		my_function('fromFirstAction')
 		logging.debug('FirstAction ['+self.name+'] * '+str(self.actionCount)+'.')
 
 	def secondAction(self):
