@@ -7,7 +7,7 @@ Adapted from https://github.com/kennethreitz/samplemod
 
 ## Todo
 
-* implement virtual environment
+.
 
 
 ## Running Instructions
@@ -23,9 +23,27 @@ To output debugging to file
 > python sample -d log.txt
 
 
-### Using virtual env
+### Using virtual environment
+
+Install virtualenv
+
+> pip install virtualenv
+
+Test virtualenv
+
+> virtualenv --version
 
 
+To use virtualenv in production
+
+> virtualenv my_project
+> source my_project/bin/activate
+Install requirements
+> pip install -r requirements.txt
+Run python app
+> python sample -d
+exit virtualenv
+> deactivate
 
 
 ## Testing
@@ -55,12 +73,7 @@ git-pull-pip-install-deploy.sh
 
 git clone https://github.com/company/somerepo.git
 cd /opt/myproject
- <virtual environment>
-  pip install -r requirements.txt
-  python start_server.py
-
-
-
-## Resources
+pip install -r requirements.txt
+python sample -d
 
 
