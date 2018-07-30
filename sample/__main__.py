@@ -7,9 +7,9 @@ from funcmodule import my_function
 
 import core
 
-from ParentClass import Parent
-from ChildClass import Child
-from AnotherChildClass import AnotherChild
+from Group.ParentClass import Parent
+from Group.ChildClass import Child
+from Group.AnotherChildClass import AnotherChild
 
 def main():	
 	init() 
