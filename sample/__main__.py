@@ -8,13 +8,10 @@ from funcmodule import my_function
 import core
 
 
-def main():
-	print("Main")
-	
+def main():	
 	init() 
 	logging.debug('Main')	
-	
-	print(sys.argv[1:])
+	logging.debug('cmd options= '+str(sys.argv[1:]))
 
 	# function
 	my_function('hello world')
@@ -24,7 +21,7 @@ def main():
 	my_object.say_name()	
 	
 	# core
-	print(core.get_hmm())
+	logging.debug(core.get_hmm())
 	core.hmm()
 	
 def init():
@@ -38,7 +35,6 @@ def init():
 	cmdparser.add_argument('-d', '--debug', dest='debug', action='store_true')
 	cmdparser.add_argument('debugfile', nargs='?', default=None)
 
-	# add option to have an argument for debug output to log file
 	args = cmdparser.parse_args()
 	
 	if args.debug: 	

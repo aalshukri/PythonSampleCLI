@@ -3,7 +3,7 @@
 
 import helpers
 #from . import helpers
-
+import logging
 
 
 def get_hmm():
@@ -14,4 +14,4 @@ def get_hmm():
 def hmm():
     """Contemplation..."""
     if helpers.get_answer():
-        print(get_hmm())
+        logging.debug(get_hmm())
