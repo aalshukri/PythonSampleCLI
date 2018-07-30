@@ -3,7 +3,7 @@ import logging
 import argparse
 
 from classmodule import MyClass
-from funcmodule import my_function
+from Funcs.funcmodule import my_function
 
 import core
 
