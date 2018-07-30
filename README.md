@@ -7,8 +7,6 @@ Adapted from https://github.com/kennethreitz/samplemod
 
 ## Todo
 
-* implement inheritance class and testing
-
 * implement virtual environment
 
 
