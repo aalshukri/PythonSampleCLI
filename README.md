@@ -16,6 +16,14 @@ Adapted from https://github.com/kennethreitz/samplemod
 
 > python sample --help
 
+To output debugging to screen
+
+> python sample -d
+
+To output debugging to file
+
+> python sample -d log.txt
+
 
 ### Using virtual env
 
