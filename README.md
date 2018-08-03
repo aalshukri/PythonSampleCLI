@@ -1,13 +1,8 @@
 # PythonSampleCLI
 
-Repo to be used as a base skeleton for development of command line interface applications.
+This repository contains a basic skeleton for development of command line interface applications.
 
 Adapted from https://github.com/kennethreitz/samplemod
-
-
-## Todo
-
-.
 
 
 ## Running Instructions
@@ -37,12 +32,19 @@ Test virtualenv
 To use virtualenv in production
 
 > virtualenv my_project
+
 > source my_project/bin/activate
+
 Install requirements
+
 > pip install -r requirements.txt
+
 Run python app
+
 > python sample -d
+
 exit virtualenv
+
 > deactivate
 
 
